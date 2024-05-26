@@ -12,3 +12,11 @@ html{
     background-color: #ffffff;
     text-rendering:optimizelegibility;
 }
+
+header{
+background-image: url("../img/hinh1.jpeg");
+}
+
+.logo{
+    width: 350px;
+}
