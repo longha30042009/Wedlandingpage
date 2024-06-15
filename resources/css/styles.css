@@ -8,7 +8,7 @@
 html{
     font-family: 'Lato', sans-serif;
     font-size: 20px;
-    color: black;
+    color: white;
     background-color: #ffffff;
     text-rendering:optimizelegibility;
     
@@ -45,15 +45,16 @@ background-attachment: fixed;
 
 .main-nav li a{
     text-emphasis: none;
-    color: white;
+    color: pink;
     font-size: 110%;
     font-weight: 700 ;
     transition: border-bottom 0.5s;
 }
 .main-nav li a:hover,
 .main-nav li a:active{
-    border-bottom: #ffffff;
+    border-bottom: #cccccc;
 }
+
 
 .clearfix::after{
      content: "  ";
@@ -61,7 +62,7 @@ background-attachment: fixed;
      clear: both;
 
     }
-.chu{
-    width: 1140px;
-    margin: 100px 10px 15px 200px;
-}
+    .chu{
+        width: 1140px;
+        margin: 100px 10px 15px 200px;
+    }
