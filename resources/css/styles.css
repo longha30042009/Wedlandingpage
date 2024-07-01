@@ -21,7 +21,7 @@ html{
     /*-------------------------------*/
     .btn{
         text-decoration: none;
-        color: white;
+        color: black;
         background-color: #e67e22;
         padding: 15px,30px;
         border-radius: 20px;
@@ -103,7 +103,7 @@ background-attachment: fixed;
 }
 .main-nav li a:hover,
 .main-nav li a:active{
-    border-bottom: #cccccc;
+    border-bottom: black;
 }
     .heading-main-box{
         position: absolute;
