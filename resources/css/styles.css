@@ -170,3 +170,34 @@ html{
     .about-picture:active .picture-title{
     transform: translate(-65%, -50%);
     opacity: 1;}
+    /*-----------------------------------*/
+    /*---------PRODUCT-SECTION-----------*/
+    /*-----------------------------------*/
+    .prodoct-section{
+        background-color: #f4f4f4;
+
+    }
+    .product-section h2{
+        margin-bottom: 60px;
+    }
+    .product-box{
+        background-color: #eeefff;
+        box-shadow: 3px 5px 10px #e0e0e0;
+        width: 90px;
+        height: 350px
+    }
+    .product-price{
+        color:#265077;
+        font-size: 250%;
+         font-weight: 300;
+         text-align: center;
+    }
+    .product-price span {
+        font-size: 80%;
+    }
+    .product-box ul li {
+        margin-left: 20%;
+        list-style: none;
+        margin-top: 20px;
+        margin-bottom: 20px; 
+    }
