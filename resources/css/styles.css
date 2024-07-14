@@ -134,6 +134,16 @@ html{
         margin-left: 15%;
         line-height: 140%;
     }
+    section{
+        padding: 50px;
+    }
+
+    .small-icon{
+        color:#305679;
+        font-size: 130%;
+        margin-right: 10px;
+    }
+    
 
     /*----------------------------------*/
     /*-------------HEADER--------------*/
@@ -200,4 +210,7 @@ html{
         list-style: none;
         margin-top: 20px;
         margin-bottom: 20px; 
+    }
+    .product-box.btn{
+        margin-left: 20px;
     }
