@@ -229,6 +229,8 @@ html{
     }
 
     blockquote{
+        width: 95%;
+        position:relative;
         font-size: italic;
         line-height: 140%;
         color: white;
@@ -246,4 +248,49 @@ html{
         border: 2px solid black;
         vertical-align: middle;
         margin-right: 5px;
+    }
+    /*-----------------------------*/
+    /*--------SPONSOR SECTION-------*/
+    /*------------------------------*/
+
+
+    .sponsor-section{
+        background-color: #f4f4f4;
+
+    }
+
+    .sponsor-section h2{
+        margin-bottom: 50px;
+    }
+
+
+    .sponsor-showcase{
+
+    }
+
+    .sponsor-showcase li{
+        list-style: none;
+        float: left;
+
+    }
+
+    .logo-sponsor{
+        width: 140px;
+        cursor:pointer;
+        transition:all .3s;
+
+    }
+
+
+    .sponsor-showcase li .logo-sponsor:hover,
+    .sponsor-showcase li .logo-sponsor:active{
+        transition: scale(1.1);
+    }
+
+    figcaption{
+        color:#265077;
+        font-weight: 900;
+        font-size: 120%;
+        cursor:pointer;
+
     }
