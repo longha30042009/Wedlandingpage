@@ -366,6 +366,11 @@ html{
         margin-left: 40%;
         width: 60%;
         padding: 20px;
+        margin-bottom: 20px;
+    }
+
+    form .row{
+        margin-bottom: 20px;
     }
 
     label{
@@ -377,7 +382,7 @@ html{
         outline: none;
         padding: 10px;
         background-color: rgb(48, 47, 47, 0.3);
-        border: 1px solid rgb(29, 28, 28, 0.7);
+        border: 1px solid rgb(70, 68, 68, 0.7);
         margin-left: 30px;
         cursor: pointer;
         border-radius: 5px;
@@ -392,6 +397,32 @@ html{
          height: 50px;
 
     }
+
+    input[type=text],input[type=email] textarea{
+        width: 80%;
+        font-size: 100%;
+        transition: all .3s;
+    }
+
+    input[type=text],input[type=email]:focus, textarea:focus{
+        color: white;
+        background-color: rgb(48, 47, 47,0.8);
+    }
+
+
+
+    form .now:last-child{
+        text-align: center;
+    }
+
+    input[type=submit]{
+        font-weight: 700;
+        font-size: 100%;
+        border-radius: 5px;
+        width: 60px;
+    }
+
+
 
 
 
